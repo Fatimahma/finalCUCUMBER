@@ -1,0 +1,166 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 281819800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "\"Set SkyBlue Background\" button exists",
+            "match": {
+              "location": "SetBackGrounColorStepDef.set_SkyBlue_BackGround_button_exists()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6267408100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetBackGrounColorStepDef.beforeRun()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "1 user should be able to set skyBlue BackGround",
+        "description": "",
+        "id": "validate-setting-background-color-functionality;1-user-should-be-able-to-set-skyblue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45014900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on the button",
+            "match": {
+              "location": "SetBackGrounColorStepDef.user_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24448900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "SetBackGrounColorStepDef.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@setBackGroundColor"
+          }
+        ]
+      }
+    ],
+    "name": "validate Setting Background color functionality",
+    "description": "",
+    "id": "validate-setting-background-color-functionality",
+    "keyword": "Feature",
+    "uri": "features/SetBackGroundBlue.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 31090600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "\"Set White Background\" button exists",
+            "match": {
+              "location": "SetBackGrounColorStepDef.set_White_BackGround_button_exists()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2844077000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetBackGrounColorStepDef.beforeRun()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "1 user should be able to set white BackGround",
+        "description": "",
+        "id": "validate-setting-background-color-functionality;1-user-should-be-able-to-set-white-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38085700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on the white button",
+            "match": {
+              "location": "SetBackGrounColorStepDef.user_click_on_the_white_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22493300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "SetBackGrounColorStepDef.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@setBackGroundColor"
+          }
+        ]
+      }
+    ],
+    "name": "validate Setting Background color functionality",
+    "description": "",
+    "id": "validate-setting-background-color-functionality",
+    "keyword": "Feature",
+    "uri": "features/SetBackGroundWhite.feature"
+  }
+]
